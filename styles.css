@@ -1,0 +1,34 @@
+.title{font-family:Roboto;}
+.header {
+  margin: auto;
+display: flex;
+justify-content: space-between;
+  }
+.wrapper {
+  margin: auto;
+  width: 80%;
+  border: dashed 1px black;
+}
+.logo, .menu {
+  display: inline-block;
+  border: dashed 1px green;
+}
+.logo {
+  padding: 40px 0;
+  margin-right: 63%;
+}
+.menu {
+  display: flex;
+  align-items: center;
+
+}
+
+
+.menu__item {
+
+  padding: 0px 13px;
+  border: dashed 1px red;
+}
+.menu__item:last-child {
+  padding-right: 0;
+}
